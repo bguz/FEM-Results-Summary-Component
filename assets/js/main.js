@@ -1,6 +1,5 @@
 async function insertJSONData() {
     const scores = document.querySelector('.summary__scores');
-
     const response = await fetch('./data.json');
     const data = await response.json();
     
