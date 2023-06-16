@@ -90,7 +90,8 @@ body {
 .results__result-description {
     color: var(--light-lavender);
     font-size: 1.8rem;
-    max-width: 25rem;
+    width: 25rem;
+    line-height: 2.4rem;
 }
 
 .summary {
