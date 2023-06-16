@@ -49,6 +49,25 @@ body {
     min-height: 100vh;
     background-color: var(--pale-blue);
 }
+.cta-primary {
+    background-color: var(--dark-gray-blue);
+    padding: 2rem 0;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: var(--white);
+    border-radius: 3rem;
+    margin-top: 2rem;
+}
+
+.cta-primary:hover {
+    background-color: var(--light-slate-blue);
+    color: var(--white);
+}
+
+.attribution {
+    display: none;
+}
 .card {
     display: flex;
     flex-direction: column;
@@ -56,11 +75,18 @@ body {
     background-color: var(--white);
 }
 
-.results {
+/******************************************
+/* RESULTS SECTION
+/*******************************************/
+.results,
+.results__range {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.results {
     text-align: center;
     border-radius: 0 0 2.5rem 2.5rem;
     padding: 2.5rem 3.5rem;
@@ -71,10 +97,6 @@ body {
     color: var(--light-lavender);
 }
 .results__range {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 18.5rem;
     height: 18.5rem;
     background: linear-gradient(to bottom, var(--violet-blue), var(--persian-blue));
@@ -98,6 +120,9 @@ body {
     line-height: 2.4rem;
 }
 
+/******************************************
+/* SUMMARY SECTION
+/*******************************************/
 .summary {
     padding: 2.5rem 3.5rem;
 }
@@ -131,6 +156,9 @@ body {
     font-weight: 800;
 }
 
+/******************************************
+/* INDIVIDUAL RESULT STYLES (DO NOT RENAME)
+/*******************************************/
 .summary--reaction {
     color: hsl(var(--light-red));
     background-color: hsla(var(--light-red), .1);
@@ -146,26 +174,6 @@ body {
 .summary--visual {
     color: hsl(var(--cobalt-blue));
     background-color: hsla(var(--cobalt-blue), .1);
-}
-
-.cta-primary {
-    background-color: var(--dark-gray-blue);
-    padding: 2rem 0;
-    display: block;
-    text-decoration: none;
-    text-align: center;
-    color: var(--white);
-    border-radius: 3rem;
-    margin-top: 2rem;
-}
-
-.cta-primary:hover {
-    background-color: var(--light-slate-blue);
-    color: var(--white);
-}
-
-.attribution {
-    display: none;
 }
 
 
