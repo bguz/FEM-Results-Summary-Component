@@ -23,6 +23,10 @@
 html {
     font-size: 62.5%;
 }
+a {
+    color: var(--violet-blue);
+    text-decoration: none;
+}
 /* Clear fix hack */
 .clearfix:after {
     content: ".";
@@ -156,8 +160,12 @@ body {
 }
 
 .cta-primary:hover {
-    background-color: var(--pale-blue);
-    color: var(--dark-gray-blue);
+    background-color: var(--light-slate-blue);
+    color: var(--white);
+}
+
+.attribution {
+    display: none;
 }
 
 
@@ -179,5 +187,16 @@ body {
     }
     .summary {
         width: 50%;
+    }
+    .attribution {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        background: var(--white);
+        width: 100%;
+        padding: 1.5rem 0;
+        border: 1px solid rgb(224, 224, 224);
     }
 }
