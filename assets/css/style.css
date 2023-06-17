@@ -25,7 +25,6 @@ html {
 }
 a {
     color: var(--violet-blue);
-    text-decoration: none;
 }
 /* Clear fix hack */
 .clearfix:after {
