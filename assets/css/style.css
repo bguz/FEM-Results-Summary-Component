@@ -43,7 +43,7 @@ a {
 /******************************************
 /* BASE STYLES
 /*******************************************/
-body {
+main {
     font-family: 'Hanken Grotesk', sans-serif;
     font-size: 1.6rem;;
     min-height: 100vh;
@@ -179,7 +179,7 @@ body {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    body {
+    main {
         display: flex;
         justify-content: center;
         align-items: center;
