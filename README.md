@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: (https://bguz.github.io/FEM-Results-Summary-Component/)
+- Live Site URL: (https://bguz.github.io/FEM-results-summary-component/)
 
 ### Built with
 
@@ -35,4 +35,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@bguz](https://bguz.github.io/FEM-Workit-Landing-Page/)
+- Frontend Mentor - [@bguz](https://www.frontendmentor.io/profile/bguz)
